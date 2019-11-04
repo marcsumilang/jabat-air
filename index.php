@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>Smatica - Malolos Bulacan</title>
+
+  
+    <link href="images/new/Jabat-air Logo ico.ico" rel="icon">
+    <link href="images/new/Jabat-air Logo ico.ico" rel="apple-touch-icon">
+  
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142575879-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142575879-1');
+</script>
+
+
+</head>
+
+<body>
+    <?php
+        echo "test";
+    ?>
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+        <a href="#intro"><img src="images/new/logo6.png" alt="" title="" style="margin-top:-10px;" /></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#portfolio">Products</a></li>
+          <li><a href="#services">Services</a></li>
+     
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/facts-bg.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Jabat-Air</h2>
+                <p>Satisfying our customer’s needs for excellent quality services and outstanding value of products.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/facts-bg.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Jabat-Air</h2>
+                <p>Caring for the environment to our client and workers.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/facts-bg.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Jabat-Air</h2>
+                <p>Air Duct Fabrication and Installation (Fresh Air, Exhaust,..)</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-background"><img src="img/facts-bg.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Jabat-Air</h2>
+                <p>Fabrication of all types of Air-conditioning Register (Grilles, Diffuser, Louvers and Damper.)</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+        
+
+
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-bookmarks-outline"></i>
+            <h4 class="title"><a href="">Most Reasonable Price</a></h4>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-stopwatch-outline"></i>
+            <h4 class="title"><a href="">Dependable Service</a></h4>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-heart-outline"></i>
+            <h4 class="title"><a href="">Quality Service</a></h4>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>About Jabat-Air</h3>
+          <p>
+              JABAT AIR MARKETING & SERVICES with its rightful place in the industry, hard earned recognition, dependability and profit, endlessly pursues greater heights of success with unrelenting team of technical expert staff.
+              <br>
+              We have a dynamic and dedicated team that pledges its commitment to provide dependable service, uncompromising quality, and most reasonable prices that gained us reputation for many years of existence in this service.
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-12 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="images/new/mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                  •	To Satisfying our customer’s needs for excellent quality services and outstanding value of products <br>
+                  •	To continuously develop our staff's knowledge and expertise, to hone our valuable knowledge and skill that has been gained through years of hands-on- experience in order to give quality service in every project that we undertake. <br>
+                  •	To develop a Caring for the environment to our client and workers.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="col-md-12 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="images/new/vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                  Client’s Satisfaction of our Completion. To make them ideally contented with our service in Physical and Structural form of works and products
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="portfolio"  class="section-bg" >
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Products</h3>
+          <div class="container">
+              <img src="images/new/all products brochure 2-min.png" class="img-fluid" alt="">
+          </div>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-None" class="filter-active">Select Products</li>
+              <li data-filter="*">All</li>
+              <li data-filter=".filter-Disffuser">Diffuser</li>
+              <li data-filter=".filter-Grilles">Grilles</li>
+              <li data-filter=".filter-Damper">Damper</li>
+              <li data-filter=".filter-Air-Ducts">Air Ducts</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Grilles wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-grilles.jpg" class="img-fluid" alt="">
+                <a href="images/jabat-air-grilles.jpg" data-lightbox="portfolio" data-title="Jabat Air Products & Services" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Single Deflection</a></h4>
+                <p>Grilles</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Damper wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-volume-damper-2.jpg" class="img-fluid" alt="">
+                <a href="images/jabat-air-volume-damper-2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Opposed Blade Volume</a></h4>
+                <p>Damper</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Disffuser wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-diffuser-1.jpg" class="img-fluid" alt="">
+                <a href="images/jabat-air-diffuser-1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Round Celling</a></h4>
+                <p>Disffuser</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Grilles wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-grilles -1.jpg" class="img-fluid" alt="">
+                <a href="images/jabat-air-grilles -1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Double Deflection</a></h4>
+                <p>Grilles</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Grilles wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-grilles -4.jpg" class="img-fluid" alt="">
+                <a href="images/jabat-air-grilles -4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Louver Type</a></h4>
+                <p>Grilles</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Damper wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-volume-damper.png" class="img-fluid" alt="">
+                <a href="images/jabat-air-volume-damper.png" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Round Volume</a></h4>
+                <p>Damper</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Damper wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-volume-damper-4.jpg" class="img-fluid" alt="">
+                <a href="images/jabat-air-volume-damper-4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Black Blade Volume</a></h4>
+                <p>Damper</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Disffuser wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-diffuser-3.jpg" class="img-fluid" alt="">
+                <a href="images/jabat-air-diffuser-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">4 Way Square Celling</a></h4>
+                <p>Disffuser</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Disffuser wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/jabat-air-diffuser-2.jpg" class="img-fluid" alt="">
+                <a href="images/jabat-air-diffuser-2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">4 Way Square Celling</a></h4>
+                <p>Disffuser</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Air-Ducts wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/Jabat-Air-Air-ducts-fittings.png" class="img-fluid" alt="">
+                <a href="images/Jabat-Air-Air-ducts-fittings.png" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Air Ducts</a></h4>
+                <p>Air Ducts Fitting</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Air-Ducts wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/Jabat-Air-Air-ducts-fittings-3.jpg" class="img-fluid" alt="">
+                <a href="images/Jabat-Air-Air-ducts-fittings-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Air Ducts</a></h4>
+                <p>Air Ducts Fitting</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Air-Ducts wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="images/Jabat-Air-Air-ducts-installation.jpg" class="img-fluid" alt="">
+                <a href="images/Jabat-Air-Air-ducts-installation.jpg" class="link-preview" data-lightbox="portfolio" data-title="Jabat Air Products & Services" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Air Ducts installation</a></h4>
+                <p>Air Ducts Fitting installation</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Jabat Air Services</h3>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+            <h4 class="title"><a href="">Installation</a></h4>
+            <p class="description">Air Duct Fabrication and Installation(Fresh Air, Exhaust and Etc.)</p>
+          </div>
+          <div class="col-lg-6 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+            <h4 class="title"><a href="">Fabrication</a></h4>
+            <p class="description">Fabrication of all types of Air-conditioning Register (Grilles, Diffuser, Louvers and Damper.)</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="call-to-action" class="wow fadeIn">
+      <div class="container text-center">
+        <h3>Request a Meeting</h3>
+        <p> We are pleased to present a proposal and very much willing to discuss and negotiate this matter to you at your most convenient time.</p>
+        <a class="cta-btn" href="#contact">Call Us</a>
+      </div>
+    </section>
+
+   
+ 
+    <section id="testimonials" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Done Projects</h3>
+        </header>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <img src="images/new/jabat-air project - 1-min.jpg" class="img img-center" style="width:100%; height:480px;" alt="Jabat-air Project 1 - BTTC Center">
+            <h3>BTTC CENTER</h3>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="images/new/jabat-air project - 2-min.jpg" class="img" style="width:100%; height:480px;" alt="Jabat-air Project 1 - BTTC Center">
+            <h3>INSULAR LIFE</h3>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="images/new/jabat-air project - 3-min.jpg" class="img" style="width:100%; height:480px;" alt="Jabat-air Project 1 - BTTC Center">
+            <h3>LAMCOR</h3>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="images/new/jabat-air project - 4-min.jpg" class="img" style="width:100%; height:480px;" alt="Jabat-air Project 1 - BTTC Center">
+            <h3>YAMAHA SHOW ROOM</h3>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+    
+
+
+
+    <section id="contact" class="section-bg wow fadeInUp">
+      
+<div id="app">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+      
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>42 Road 23 st Pascual Compound Barangay Bahay Toro
+                Quezon City, Philippines 1800</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:(02)719 7126">(02)719 7126</a> or +63 917 823 4136</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:sales@jabat-air.com">sales@jabat-air.com</a> or <a href="mailto:jabat.air37@yahoo.com">jabat.air37@yahoo.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+       <center>
+         <h2>You may leave us a message.</h2>
+       </center>
+          <send_message></send_message>
+    
+       
+
+      </div>
+    </div>
+    </section>
+    
+    <section class="section-bg">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.2350504350624!2d121.0203372935449!3d14.66951127216142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b6c32f3979a5%3A0xbadb4bb07d47fbe5!2s42+Rd+23%2C+Project+8%2C+Quezon+City%2C+Metro+Manila!5e0!3m2!1sen!2sph!4v1560509614381!5m2!1sen!2sph" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Jabat Air</h3>
+            <p>Supplier of Aircon Registers(Diffuser, Grilles, Louver and Etc)
+
+              Installation of Air Duct(Fresh Air, Exhaust and Air-condition Unit)</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#services">Services</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#portfolio">Products</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#contact">Contacts</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              42 Road 23 st Pascual Compound <br>
+              Barangay Bahay Toro<br>
+              Quezon City, Philippines 1800 <br>
+              <strong>Phone:</strong> (02)719 7126 or +63 917 823 4136<br>
+              <strong>Email:</strong> sales@jabat-air.com or jabat.air37@yahoo.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://www.facebook.com/jabatair/" class="facebook"><i class="fa fa-facebook"></i></a>
+              Facebook Page
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Jabat-Air</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Developed by <a href="https://marcsumilang.com/" alt="Developed by Marc Jherico Sumilang">Marc Jherico Sumilang</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <div id="preloader"></div>
+
+  <script src="js/app.js" defer></script>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
