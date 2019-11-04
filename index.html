@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="">
 <head>
   
-    <!-- {{-- Develop by: Marc Sumilang --}}
-    {{-- URL: https://marcsumilang.com --}}
-    {{-- Author: marcsumilang.com --}} -->
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,34 +9,27 @@
 
     <meta content="" name="keywords">
     <meta content="" name="description">
-    <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Smatica - Malolos Bulacan') }}</title>
+    <title>Smatica - Malolos Bulacan</title>
 
   
-    <!-- Favicons -->
     <link href="images/new/Jabat-air Logo ico.ico" rel="icon">
     <link href="images/new/Jabat-air Logo ico.ico" rel="apple-touch-icon">
   
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
   
-    <!-- Bootstrap CSS File -->
-    <link href="{{ asset('lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   
 
-  <!-- Libraries CSS Files -->
-  <link href="{{ asset('lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('lib/animate/animate.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('lib/lightbox/css/lightbox.min.css') }}" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142575879-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -53,14 +43,10 @@
 </head>
 
 <body>
-  <!--==========================
-    Header
-  ============================-->
   <header id="header">
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
         <a href="#intro"><img src="images/new/logo6.png" alt="" title="" style="margin-top:-10px;" /></a>
       </div>
 
@@ -73,14 +59,11 @@
      
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav>
     </div>
-  </header><!-- #header -->
+  </header>
 
 
-  <!--==========================
-    Intro Section
-  ============================-->
   <section id="intro">
     <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
@@ -150,13 +133,10 @@
 
       </div>
     </div>
-  </section><!-- #intro -->
+  </section>
 
   <main id="main">
 
-    <!--==========================
-      Featured Services Section
-    ============================-->
     <section id="featured-services">
       <div class="container">
         <div class="row">
@@ -164,28 +144,22 @@
           <div class="col-lg-4 box">
             <i class="ion-ios-bookmarks-outline"></i>
             <h4 class="title"><a href="">Most Reasonable Price</a></h4>
-            {{-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> --}}
           </div>
 
           <div class="col-lg-4 box box-bg">
             <i class="ion-ios-stopwatch-outline"></i>
             <h4 class="title"><a href="">Dependable Service</a></h4>
-            {{-- <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p> --}}
           </div>
 
           <div class="col-lg-4 box">
             <i class="ion-ios-heart-outline"></i>
             <h4 class="title"><a href="">Quality Service</a></h4>
-            {{-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p> --}}
           </div>
 
         </div>
       </div>
-    </section><!-- #featured-services -->
+    </section>
 
-    <!--==========================
-      About Us Section
-    ============================-->
     <section id="about">
       <div class="container">
 
@@ -214,18 +188,6 @@
             </div>
           </div>
 
-          {{-- <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="about-col">
-              <div class="img">
-                <img src="img/about-plan.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-list-outline"></i></div>
-              </div>
-              <h2 class="title"><a href="#">Our Plan</a></h2>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-              </p>
-            </div>
-          </div> --}}
 
           <div class="col-md-12 wow fadeInUp" data-wow-delay="0.2s">
             <div class="about-col">
@@ -243,12 +205,9 @@
         </div>
 
       </div>
-    </section><!-- #about -->
+    </section>
 
 
-<!--==========================
-      Portfolio Section
-    ============================-->
     <section id="portfolio"  class="section-bg" >
       <div class="container">
 
@@ -457,19 +416,13 @@
         </div>
 
       </div>
-    </section><!-- #portfolio -->
+    </section>
 
-
-
-    <!--==========================
-      Services Section
-    ============================-->
     <section id="services">
       <div class="container">
 
         <header class="section-header wow fadeInUp">
           <h3>Jabat Air Services</h3>
-          {{-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p> --}}
         </header>
 
         <div class="row">
@@ -488,23 +441,18 @@
         </div>
 
       </div>
-    </section><!-- #services -->
+    </section>
 
-    <!--==========================
-      Call To Action Section
-    ============================-->
     <section id="call-to-action" class="wow fadeIn">
       <div class="container text-center">
         <h3>Request a Meeting</h3>
         <p> We are pleased to present a proposal and very much willing to discuss and negotiate this matter to you at your most convenient time.</p>
         <a class="cta-btn" href="#contact">Call Us</a>
       </div>
-    </section><!-- #call-to-action -->
+    </section>
 
    
-    <!--==========================
-      Clients Section
-    ============================-->
+ 
     <section id="testimonials" class="section-bg wow fadeInUp">
       <div class="container">
 
@@ -538,16 +486,12 @@
         </div>
 
       </div>
-    </section><!-- #testimonials -->
+    </section>
 
     
 
 
 
-    
-    <!--==========================
-      Contact Section
-    ============================-->
     <section id="contact" class="section-bg wow fadeInUp">
       
 <div id="app">
@@ -555,7 +499,7 @@
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          {{-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> --}}
+      
         </div>
 
         <div class="row contact-info">
@@ -596,7 +540,7 @@
 
       </div>
     </div>
-    </section><!-- #contact -->
+    </section>
     
     <section class="section-bg">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.2350504350624!2d121.0203372935449!3d14.66951127216142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b6c32f3979a5%3A0xbadb4bb07d47fbe5!2s42+Rd+23%2C+Project+8%2C+Quezon+City%2C+Metro+Manila!5e0!3m2!1sen!2sph!4v1560509614381!5m2!1sen!2sph" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -647,13 +591,6 @@
 
           </div>
 
-          {{-- <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit"  value="Subscribe">
-            </form>
-          </div> --}}
 
         </div>
       </div>
@@ -672,27 +609,27 @@
   <!-- Uncomment below i you want to use a preloader -->
   <div id="preloader"></div>
 
-  <script src="{{ asset('js/app.js') }}" defer></script>
+  <script src="js/app.js" defer></script>
 
   <!-- JavaScript Libraries -->
-  <script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
-  <script src="{{ asset('lib/jquery/jquery-migrate.min.js') }}"></script>
-  <script src="{{ asset('lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('lib/easing/easing.min.js') }}"></script>
-  <script src="{{ asset('lib/superfish/hoverIntent.js') }}"></script>
-  <script src="{{ asset('lib/superfish/superfish.min.js') }}"></script>
-  <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
-  <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
-  <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
-  <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
-  <script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
-  <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
-  <script src="{{ asset('lib/touchSwipe/jquery.touchSwipe.min.js') }}"></script>
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="{{ asset('contactform/contactform.js') }}"></script>
+  <script src="contactform/contactform.js"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="{{ asset('js/main.js') }}"></script>
+  <script src="js/main.js"></script>
 
 
 </body>
